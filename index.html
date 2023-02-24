@@ -1,0 +1,243 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="portfolio.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://kit.fontawesome.com/2761b21562.js" crossorigin="anonymous"></script>
+</head>
+</head>
+<body>
+
+    <div class="headar">
+        <div class="container">
+                <h2>portfo<span>lio.</span></h2>
+            <div class="navlinks" id="links"> 
+                <div class="icon1"><i class="fa-solid fa-square-xmark" onclick="hidemenu()"></i></div>
+                <ul>
+                    <li class="active"><a href="">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">My Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="icon2" id="links"><i class="fa-solid fa-bars" onclick="showmenu()"></i></div>
+        </div>
+    </div>
+ 
+	
+<section class="main"> 
+    <div class="w3-center w3-animate-left" id="photo">
+        <img src="D:\my_space\portfolio\photo.jpeg" alt="Mounika" >
+    </div>
+	<div class="anime">
+	    <h2>Hey There!<nbsp>   </nbsp><span>I am</span> </h1>
+	    <h1 >Mounika Nayikoti</h1>
+        <p>Web Development Enthusiast, Enjoy in creating good-looking gorgeous Web Designs</p>
+        <a class="w3-center w3-animate-top" href="" >CONTACT ME</a>	
+    </div> 
+</section>
+
+<!------------About----- -------->
+
+<div class="about" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <h1>About Me!</h1>
+            </div>
+            <div class="col-2">
+                <p>A dedicated and enthusiastic undergraduate student with a passion for web development, Network Security
+                    and Software Engineering with an expertise in creating responsive web designs and enhance the knowledge 
+                    and skills in the field of Computer Science and implement the experience gained in this field to develop 
+                    challenging projects and strive to make a difference in ever-changing field of computers.</p>
+
+
+
+                    <div class="tabs">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('interests')">Interests</p>
+                    </div>
+                    <div class="content active-tab" id="education">
+                        <ul>
+                            <li>
+                                <span>SSC</span><br>
+                                Sri Saraswathi Convent High School<br>
+                                CGPA:9.8
+                            </li>
+                            <li>
+                                <span>Intermediate</span><br>
+                                Siddharth Aadharsha Junior College<br>
+                                CGPA:9.8
+                            </li>
+                            <li>
+                                <span>B-Tech</span><br>
+                                Malla Reddy Institute Of Technology And Science<br>
+                                CGPA:8.2
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="content" id="interests">
+                        <ul>
+                            <li>
+                                <span>website designing</span><br>building responsive web sites
+                            </li>
+                            <li>
+                                <span>Reading Books</span><br>enjoy in reading books specially the context of personality building
+                            </li>
+                            <li>
+                                <span>Singing</span><br>Interested in songs. In perticular, the melody songs
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------------------skills-------------------------------------------->
+
+<section class="skills" id="skills">
+    <div class="max-width">
+        <h2 class="title">My skills!</h2>
+        <div class="skills-content">
+            <div class="column left" style="display: block;">
+                <div class="text">My creative skills & experiences.</div>
+                <p>I am web development enthusiast Interested in creating responsive web designs.HTML,CSS,Java Script are my front-end languages while the back-end I code in Python. I gained experience in web designing by training from "DevTown". Till now, I have designed a responsive website for my school, 
+                    the webpage that shows your current location, Instagram clone and a beautiful profile card with glassmorphism effect.  </p>
+            </div>
+            <div class="column right">
+                <div class="bars">
+                    <div class="info">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="line html"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>JavaScript</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Python</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="line python"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>MySQL</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="line mysql"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------------------------------Projects-------------------------------------------->
+<section class="projects" id="projects">
+    <div class="box">
+        <h1 class="title">My Projects!</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="D:\my_space\portfolio\project1.jpeg" alt="project1" loading="lazy" class="image1">
+                <div class="layer">
+                    <h3>School Website</h3>
+                    <p>A Website that depict about the school and helps parents to know about the school.</p>
+                    <a herf=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="D:\my_space\portfolio\project2.jpeg" alt="project1" loading="lazy" class="image2">
+                <div class="layer">
+                    <h3>Instagram</h3>
+                    <p>A Website that connects people around the world, helps you connect with  talented guys over the world.</p>
+                    <a herf="https://mounikanayikoti.github.io/Know-Location/project1.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="D:\my_space\portfolio\project3.jpeg" alt="project1" loading="lazy" class="image3">
+                <div class="layer">
+                    <h3>Profile Card</h3>
+                    <p>A design that express the individual identity. It helps to know "who you are" to others.</p>
+                    <a herf="https://mounikanayikoti.github.io/profile/glass.html "><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----------------------------------Contact Form-------------------------------------------->
+<div id="contact" id="contact">
+    <div class="room">
+        <div class="left">
+            <div class="contact-left">
+                <h1 class="title">Contact Me!</h1>
+                <p><i class="fa-regular fa-envelope"></i>mounikanayikoti@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-9390637700</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/mounika-nayikoti-229353225/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href=" https://GitHub.com/MounikaNayikoti "><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/mounika.1123/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a  class="btn" href="D:\my_space\portfolio\mounika0129.pdf" download>Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form action="mailto:msworld1123@gmail.com" method="get">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Developed with <i class="fa-solid fa-heart"></i> by <span>MS@sol.</span></p>
+    </div>
+</div>
+
+
+
+
+    <script>
+        var links=document.getElementById("links")
+        function showmenu(){
+            links.style.right="-30";
+        }
+        function hidemenu()
+        {
+            links.style.right="-240px";
+        }
+
+
+        var tablinks=document.getElementsByClassName("tab-links");
+        var contents=document.getElementsByClassName("content");
+        function opentab(name){
+            for(tablink of tablinks){
+             tablink.classList.remove("active-link");
+            }
+            for(tabcontent of contents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(name).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+
+</html>
